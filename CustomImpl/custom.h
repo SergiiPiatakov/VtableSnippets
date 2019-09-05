@@ -42,10 +42,6 @@ struct D : B
     {
         vtab = dvtab;
     }
-    
-    // Call wrappers.
-    int Preserved () {return ::Preserved (this);}
-    int Overrided () {return ::Overrided (this);}
 };
 
 // Overloading resolution.
